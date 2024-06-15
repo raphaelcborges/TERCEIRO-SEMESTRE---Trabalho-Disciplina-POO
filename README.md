@@ -17,4 +17,7 @@ Esse projeto utiliza as seguintes linguagem, ferramentas e bibliotecas:
     <td>Compilação:</td>
     <td>Documentação:</td>
     
+  </tr
+  <tr>
+    <td>[Python 3.12.4 (https://docs.python.org/3/)</td>
   </tr>
