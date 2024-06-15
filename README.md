@@ -14,8 +14,7 @@ Esse projeto utiliza as seguintes linguagem, ferramentas e bibliotecas:
 <table>
   <tr>
     <td>Linguagem:</td>
-    <td>Compilação:</td>
-    <td>Documentação:</td>
+
     
   </tr
   <tr>
