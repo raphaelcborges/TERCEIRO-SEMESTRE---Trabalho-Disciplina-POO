@@ -2,7 +2,7 @@
 
 
 <div align="center">
-<img src="https://github.com/raphaelcborges/2023-2_RPG_Segundo-Semestre/assets/129281871/239b656c-314d-47d5-a978-d11c46da573e"
+<img src="![logo](https://github.com/raphaelcborges/TERCEIRO-SEMESTRE---Trabalho-Disciplina-POO/assets/129281871/dc39d801-4699-47eb-ad9d-472ecc6d274f)"
 width="700px" />
 </div>
 
