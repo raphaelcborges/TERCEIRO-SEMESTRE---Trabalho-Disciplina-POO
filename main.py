@@ -11,10 +11,8 @@ from Inventário.Item import itens
 from Extra import Extra
 from Exceptions import letra_invalida, numero_invalido
 
-
-
-
 def ler_int() -> int:
+    # Função para ler um inteiro da entrada padrão, com tratamento de erro para valores não inteiros
     while True:
         try:
             return int(input())
@@ -22,6 +20,7 @@ def ler_int() -> int:
             print(letra_invalida())
 
 def escolha_menu() -> int:
+    # Função para exibir o menu principal e ler a escolha do usuário
     while True:
         try:
             print("Escolha uma opcao:")
@@ -37,6 +36,7 @@ def escolha_menu() -> int:
             print(e)
 
 def vitoria(vida: int):
+    # Função para exibir a mensagem de vitória com base na vida final do personagem
     print("------------------------------------------------------------- \n")
     print("Uauu! Parece que voce conseguiu passar do terceiro semestre\n")
     print(f"Seu NSG final é de {vida}, o que significa que no boletim voce tem um: ")
@@ -57,6 +57,7 @@ def vitoria(vida: int):
         print("Parece que mesmo passando, seu NSG ficou abaixo de 50, ou seja, sua média ficou abaixo do ideal, JOGUE novamente!\n")
 
 def iniciar_jogo() -> None:
+    # Função principal que inicia o jogo
     while True:
         nome = input("Antes de começar, me diga seu nome: \n")
         if nome.isalpha():
@@ -66,6 +67,7 @@ def iniciar_jogo() -> None:
 
     personagem = Personagem(nome)
 
+    # Lista de inimigos que o personagem enfrentará
     inimigos = [
         ProfCalculo3("Professor de Calculo3"),
         ProfFundMecFlu("Professor de Fundamentos de Mecanica dos Fluidos"),
@@ -75,10 +77,12 @@ def iniciar_jogo() -> None:
         ProfPOO("Professor de Programação Orientada a Objetos"),
     ]
 
+    # Loop para enfrentar cada inimigo
     for i in range(len(inimigos)):
         print(f"Voce entrou na sala do {inimigos[i].get_nome()}\n")
         batalha = Batalha(personagem, inimigos[i])
 
+        # Loop da batalha até que ela termine
         while not batalha.terminou():
             personagem.print_info()
             inimigos[i].print_info()
@@ -130,6 +134,7 @@ def iniciar_jogo() -> None:
         print("Vitoria! Voce derrotou todos os inimigos!\n")
 
 def main() -> None:
+    # Função principal que inicia o menu do jogo
     Extra.iniciar()
     sair_do_jogo = False
 
