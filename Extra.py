@@ -1,6 +1,7 @@
 class Extra:
     @staticmethod
     def iniciar():
+        # Método estático que imprime a tela inicial do jogo com arte ASCII
         print("""
  ██                                     ██               ██                                                                  
 ░██                                    ░░               ░██                                                                  
@@ -19,21 +20,24 @@ class Extra:
   ░░██ ░░██████░███   ░░█████ ░░██████░██░███   ░░██████    ██████ ░░██████ ███ ░██ ░██░░██████ ██████   ░░██ ░███   ░░██████
    ░░   ░░░░░░ ░░░     ░░░░░   ░░░░░░ ░░ ░░░     ░░░░░░    ░░░░░░   ░░░░░░ ░░░  ░░  ░░  ░░░░░░ ░░░░░░     ░░  ░░░     ░░░░░░ 
         """)
-    print("--------------TERCEIRO SEMESTRE --------------\n")
+        print("--------------TERCEIRO SEMESTRE --------------\n")
 
     @staticmethod
     def creditos():
+        # Método estático que imprime os créditos do jogo
         print("\nGRUPO:\nFernanda Vaz\nRaphael Borges\n")
         print("PROFESSOR: Gabriela Nunes\n")
 
     @staticmethod
     def reprovacao():
+        # Método estático que imprime a mensagem de reprovação e encerra o jogo
         print("Que pena! parece que voce reprovou nessa materia...")
         print("Infelizmente isso te desmotivou muito e voce acabou trancando o semestre, tente de novo no proximo!\n")
         exit(0)
 
     @staticmethod
     def print_a():
+        # Método estático que imprime um A em arte ASCII
         print("""
  .----------------. 
 | .--------------. |
@@ -50,6 +54,7 @@ class Extra:
 
     @staticmethod
     def print_b():
+        # Método estático que imprime um B em arte ASCII
         print("""
  .----------------. 
 | .--------------. |
@@ -66,6 +71,7 @@ class Extra:
 
     @staticmethod
     def print_c():
+        # Método estático que imprime um C em arte ASCII
         print("""
  .----------------. 
 | .--------------. |
@@ -82,6 +88,7 @@ class Extra:
 
     @staticmethod
     def print_d():
+        # Método estático que imprime um D em arte ASCII
         print("""
  .----------------. 
 | .--------------. |
@@ -95,8 +102,10 @@ class Extra:
 | '--------------' |
  '----------------' 
         """)
+
     @staticmethod
     def print_e():
+        # Método estático que imprime um E em arte ASCII
         print("""
  .----------------. 
 | .--------------. |
