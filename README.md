@@ -16,7 +16,7 @@ Esse projeto utiliza as seguintes linguagem, ferramentas e bibliotecas:
     <td>Linguagem:</td>
 
 
-## *observação*
+## *Observação*
 É aconselhavel baixar o PDF do Diagrama UML para uma melhor visualização.
     
   </tr
